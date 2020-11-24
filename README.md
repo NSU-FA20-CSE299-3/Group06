@@ -19,7 +19,7 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>INTRODUCTION</strong></p>
-<p>INTRODUCTION
+<p>
 We learn more about an academic institute by keeping track of their students. Due to Covid-19 pandemic our education system totally shifted online. Unfortunately, Most of the Schools in our country does not have a system to keep in touch with their students.
 <p>As a result, The teachers and students are almost disconnected from each other, On the other hand it seems due to Covid-19 educational institute will not open soon.</p>
 <p>So there is no communication between the teachers and students, To create communication between them we have come up with School Management Portal.</p>
