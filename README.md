@@ -53,12 +53,15 @@ We learn more about an academic institute by keeping track of their students. Du
 <p>We will use Python’s Stripe Library for collecting payments. The Stripe Python library provides convenient access to the Stripe API from applications written in the Python language. This API is designed with python and allows custom ways to take payments – Credit cards, Gift cards etc. We will be using this API to ensure that users can pay using their Visa Cards and MasterCards.</p>
 <p><em>Additional technologies</em></p>
 <p>Django will be used to allow users to login using their Facebook and/or Google account. </p>
-
 <p>&nbsp;</p>
 <p><strong>Monetization</strong></p>
 <p>As the web application is targeting the authority and students of the Schools, we will try to get fund from the school.</p>
-<p>Companies can also place ads on the Portal for jobs charging 100 BDT per day. We will provide an advertisement package for such companies.</p>
-<p>By using this web portals students ,any student can access them anywhere, they can  Contact teachers anytime, ask for help with studies. Eventually no need for private tuition.</p>
+<p>Companies can also place ads on the portal for jobs charging 100 BDT per day. We will provide an advertisement package for such companies.</p>
+<p>&nbsp;</p>
+<p><strong>Social Value</strong></p>
+<p>By using this web portals students ,any student can access them from anywhere, they
+can contact teachers anytime, ask for help with studies. So eventually there is no need for private tuition.
+</p>
 <p>&nbsp;</p>
 <p><strong>Alternate Approach</strong></p>
 <p>Routing can be a little problematic in Django as there is no built-in structure to develop an API. In this case Laravel makes routing is simple because here we can easily develop API, Laravel also offers notifications alert when there is some errors in templates, where Django offers no notifications.</p>
