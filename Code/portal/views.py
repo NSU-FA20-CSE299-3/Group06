@@ -14,6 +14,7 @@ def employment(request):
 def gallery(request):
      return HttpResponse("Welcome to portal gallery")
 def about(request):
+
      return HttpResponse("Welcome to About Section")
 def contact(request):
      return HttpResponse("Welcome to Contact Page ")
