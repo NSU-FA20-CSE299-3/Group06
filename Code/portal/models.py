@@ -5,4 +5,4 @@ class Academic(models.Model):
     academic_id = models.AutoField
     academic_name = models.CharField(max_length=50)
     desc = models.CharField (max_length=300)
-    pub_date = models.DateField()
+    pub_date = models.DateField() 
