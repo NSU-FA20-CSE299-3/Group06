@@ -18,11 +18,20 @@
      background-color: lightblue;
  }
 .SchoolNameOnTop{
-    background-color: #00BFFF;
+
+    background-color: #ffffff;
      text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:;
+}
+.topbutton{
+    background: #ffffff;
+    text-align: center;
 }
 
+.dropdown-menu{
+    a:hover;background: #17a2b8;
+    background: white;
+}
 
 
 </style>
@@ -33,45 +42,31 @@
 
   <! --Body Start  -- >
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-  <div class="top main menu" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Academic <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Admission
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Apply Online</a>
-          <a class="dropdown-item" href="#">will update</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">will update</a>
-        </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link " href="#">Contact</a>
-      </li>
-    </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
-  </div>
-</nav>
-
- <div class="SchoolNameOnTop">
-    <h1> Hasnabad Kamuchan Shah High School</h1>
+  <div class="SchoolNameOnTop">
+    <h1> হাসনাবাদ কামুচাঁন শাহ উচ্চ বিদ্যালয় </h1>
      </div>
+
+<div class="topbutton">
+
+   <button type="button" class="btn btn-outline-info">হোম</button>
+<button type="button" class="btn btn-outline-info">আমাদের কথা</button>
+<a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> একাডেমিক তথ্য </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">পাঠ্যক্রম</a>
+    <a class="dropdown-item" href="#">ক্লাস রুটিন</a>
+    <a class="dropdown-item" href="#">পরীক্ষার রুটিন</a>
+  </div>
+<button type="button" class="btn  btn-outline-info">শিক্ষকদের তথ্য</button>
+<button type="button" class="btn  btn-outline-info">স্টাফদের তথ্য</button>
+<button type="button" class="btn btn-outline-info">ফটো গ্যালারী</button>
+<button type="button" class="btn btn-outline-info">যোগাযোগ</button>
+<button type="button" class="btn btn-outline-info">জব</button>
+
+ </div>
+
+
+
+
 
      {% load static %}
 
