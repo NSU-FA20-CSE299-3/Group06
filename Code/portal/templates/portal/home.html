@@ -1,74 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{%  extends 'portal/basic.html' %} <! -- Imported CSS and Bootstrap design from basic.html  -- >
+{% block title %} হোম {% endblock %}
 
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Portal</title>
-      <! -- CSS design Start  -- >
-<style>
- .carousel-item{
- padding-right: -40px;
-     padding-left:280px ;
-     background-color: lightblue;
- }
-.SchoolNameOnTop{
-
-    background-color: #ffffff;
-     text-align: center;
-    font-family:;
-}
-.topbutton{
-    background: #ffffff;
-    text-align: center;
-}
-
-.dropdown-menu{
-    a:hover;background: #17a2b8;
-    background: white;
-}
-
-
-</style>
-
-
-
-  </head>
 
   <! --Body Start  -- >
-  <body>
-  <div class="SchoolNameOnTop">
-    <h1> হাসনাবাদ কামুচাঁন শাহ উচ্চ বিদ্যালয় </h1>
-     </div>
 
-<div class="topbutton">
-
-   <button type="button" class="btn btn-outline-info">হোম</button>
-<button type="button" class="btn btn-outline-info">আমাদের কথা</button>
-<a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> একাডেমিক তথ্য </a>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">পাঠ্যক্রম</a>
-    <a class="dropdown-item" href="#">ক্লাস রুটিন</a>
-    <a class="dropdown-item" href="#">পরীক্ষার রুটিন</a>
-  </div>
-<button type="button" class="btn  btn-outline-info">শিক্ষকদের তথ্য</button>
-<button type="button" class="btn  btn-outline-info">স্টাফদের তথ্য</button>
-<button type="button" class="btn btn-outline-info">ফটো গ্যালারী</button>
-<button type="button" class="btn btn-outline-info">যোগাযোগ</button>
-<button type="button" class="btn btn-outline-info">জব</button>
-
- </div>
-
-
-
-
+{% block body %}
 
      {% load static %}
+    <div class="container">
 
     <div id="carouselExampleControls" class="carousel slide my-3" data-ride="carousel">
   <div class="carousel-inner">
@@ -91,11 +30,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+{% endblock %}
+
