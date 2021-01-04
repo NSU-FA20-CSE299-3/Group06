@@ -1,16 +1,25 @@
 {%  extends 'portal/basic.html' %}
+
 {% block title %} একাডেমিক {% endblock %}
 
 {% block body %}
-<div>
-    <h2> {{ academic.0.academic_name }} </h2>
 
-<p>{{ academic.0.desc }}</p>
-<h5>
-    <a href="{{ academic.0.fileupload }}" download="{{ academic.0.fileupload }}">Download!</a>
+<br> <br>
+<div class="container",  style="text-align: left"> {{ academic.0.academic_name }}
+
+
+    <h5> <a href="{{ academic.0.fileupload.url }}" download="{{ academic.0.fileupload.url }}">Download!</a>
+    <i> {{ academic.0.pub_date }}</i>
     </h5>
 
-<h6> <i> {{ academic.0.pub_date }}</i></h6>
+
+
+
+<!--<p>{{ academic.0.desc }}</p> --->
+
+
+
 </div>
+
 
 {% endblock %}
