@@ -6,6 +6,11 @@
     <h2> {{ academic.0.academic_name }} </h2>
 
 <p>{{ academic.0.desc }}</p>
+<h5>
+    <a href="{{ academic.0.fileupload }}" download="{{ academic.0.fileupload }}">Download!</a>
+    </h5>
+
+<h6> <i> {{ academic.0.pub_date }}</i></h6>
 </div>
 
 {% endblock %}
