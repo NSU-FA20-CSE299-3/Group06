@@ -4,22 +4,28 @@
 
 {% block body %}
 
-<br> <br>
-<div class="container",  style="text-align: left"> {{ academic.0.academic_name }}
+{% for i in academic %}
+<li data-target="demo" data-slide-to="{{ i }}" > </li>
+<div class="container" style="text-align: left"> {{ i.academic_name }}
 
 
-    <h5> <a href="{{ academic.0.fileupload.url }}" download="{{ academic.0.fileupload.url }}">Download!</a>
-    <i> {{ academic.0.pub_date }}</i>
+    <h5> <a href="{{ i.fileupload.url }}" download="{{ i.fileupload.url }}">Download!</a>
+    <i> {{ i.pub_date }}</i>
     </h5>
 
 
 
 
-<!--<p>{{ academic.0.desc }}</p> --->
+<!--<p>{{ academic.0.desc|linebreaks }} <a href="{{ academic.0.desc.url }}">Read More</a> </p> -->
 
 
 
 </div>
+    {% if forloop.counter|divisibleby:3 and forloop.counter > 0 and not forloop.last %}
+
+
+    {% endif %}
+{% endfor %}
 
 
 {% endblock %}
