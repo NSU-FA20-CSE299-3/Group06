@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 
-from portal.models import Academic
+from portal.models import Academic, Syllabus
 
 
 def index(request):
@@ -16,8 +16,12 @@ def academic(request):
     params = {'academic': academics}
     return render(request, 'portal/academic.html', params)
 
+
 def syllabus(request):
-    return HttpResponse("welcome to syllabus")
+    syllabuses= Syllabus.objects.all()
+    print(syllabuses)
+    params ={'syllabuses': syllabuses}
+    return render(request,'portal/syllabus.html',params)
 
 
 def admission(request):
