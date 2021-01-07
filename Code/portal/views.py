@@ -16,6 +16,9 @@ def academic(request):
     params = {'academic': academics}
     return render(request, 'portal/academic.html', params)
 
+def syllabus(request):
+    return HttpResponse("welcome to syllabus")
+
 
 def admission(request):
     return HttpResponse("Welcome to admission activities")
