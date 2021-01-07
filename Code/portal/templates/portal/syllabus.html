@@ -1,1 +1,12 @@
 {%  extends 'portal/basic.html' %}
+
+{% block title %} পাঠ্যক্রম {% endblock %}
+
+{% block body %}
+
+
+<h5> {{ syllabuses.0.syllabus_name }}</h5>
+    <h5> <a href="{{ syllabuses.0.fileupload.url }}" download="{{ syllabuses.0.fileupload.url }}">Download!</a> </h5>
+
+
+{% endblock %}
