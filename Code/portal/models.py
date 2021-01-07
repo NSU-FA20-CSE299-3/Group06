@@ -13,7 +13,6 @@ class Academic(models.Model):
         return self.academic_name
 
 
-
 class Syllabus(models.Model):
     syllabus_id = models.AutoField
     syllabus_name = models.TextField()
