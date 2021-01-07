@@ -18,10 +18,10 @@ def academic(request):
 
 
 def syllabus(request):
-    syllabuses= Syllabus.objects.all()
+    syllabuses = Syllabus.objects.all()
     print(syllabuses)
-    params ={'syllabuses': syllabuses}
-    return render(request,'portal/syllabus.html',params)
+    params = {'syllabuses': syllabuses}
+    return render(request, 'portal/syllabus.html', params)
 
 
 def admission(request):

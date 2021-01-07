@@ -19,3 +19,6 @@ class Syllabus(models.Model):
     desc = models.TextField()
     fileupload = models.FileField(upload_to="portal/static/Documents", default="")
     pub_date = models.DateField()
+
+    def __str__(self):
+        return self.syllabus_name
