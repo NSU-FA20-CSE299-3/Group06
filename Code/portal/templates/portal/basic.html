@@ -49,6 +49,7 @@
 
   <! --Body Start  -- >
   <body>
+
   <div class="container">
   <div class="SchoolNameOnTop">
     <h1 class="SchoolNameOnTop" style="font-weight: 800;
@@ -57,25 +58,31 @@
 
 
 <div class="btn-group" role="group" aria-label="">
-   <button type="button" class=" btn btn-outline-info">হোম</button>
+   <button type="button" class=" btn btn-outline-info" >হোম</button>
 <button type="button" class="btn btn-outline-info">আমাদের কথা</button>
-    <button type="button" class="btn  btn-outline-info">একাডেমিক তথ্য
-<a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> একাডেমিক তথ্য </a>
+
+  <button type="button" class="btn btn-outline-info dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> একাডেমিক তথ্য
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <a class="dropdown-item" href="#">পাঠ্যক্রম</a>
     <a class="dropdown-item" href="#">ক্লাস রুটিন</a>
     <a class="dropdown-item" href="#">পরীক্ষার রুটিন</a>
   </div>
-  </button>
-<button type="button" class="btn  btn-outline-info">শিক্ষকদের তথ্য</button>
-<button type="button" class="btn  btn-outline-info">স্টাফদের তথ্য</button>
+</button>
+    <div>
+<a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> পোর্টাল </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">শিক্ষকদের পোর্টাল </a>
+    <a class="dropdown-item" href="#">স্টুডেন্ট পোর্টাল </a>
+  </div>
+        </div>
+<button type="button" class="btn  btn-outline-info">তথ্য</button>
 <button type="button" class="btn btn-outline-info">ফটো গ্যালারী</button>
 <button type="button" class="btn btn-outline-info">যোগাযোগ</button>
 <button type="button" class="btn btn-outline-info">জব</button>
 
-</div>
-  </div>
 
+  </div>
+ </div>
 
 {% block body %} {% endblock %}
 
@@ -84,5 +91,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </div>
   </body>
 </html>
