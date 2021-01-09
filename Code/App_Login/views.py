@@ -15,4 +15,5 @@ def logout_user(request):
     return HttpResponse("Welcome to Portal")
 
 
-
+def pass_change(request):
+    return HttpResponse("change your password")
