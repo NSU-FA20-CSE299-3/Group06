@@ -7,9 +7,9 @@ def index(request):
     return render(request, 'App_Login/index.html')
 
 
-def login_page(request):
+def login(request):
     return HttpResponse("Welcome to Portal")
 
 
-def logout_page(request):
+def logout(request):
     return HttpResponse("Welcome to Portal")
