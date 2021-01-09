@@ -11,6 +11,10 @@ def login_page(request):
     return HttpResponse('Please log in to Portal')
 
 
+def user_profile(request):
+    return HttpResponse('profile')
+
+
 def logout_user(request):
     return HttpResponse("Welcome to Portal")
 
