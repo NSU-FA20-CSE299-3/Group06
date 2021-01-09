@@ -8,11 +8,11 @@ def index(request):
 
 
 def login_page(request):
-    return HttpResponse('Please log in to Portal')
+    return render(request, 'App_Login/login.html')
 
 
 def user_profile(request):
-    return HttpResponse('profile')
+    return render(request, 'App_Login/profile.html')
 
 
 def logout_user(request):
