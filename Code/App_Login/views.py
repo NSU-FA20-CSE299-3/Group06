@@ -10,3 +10,9 @@ def index(request):
 def login_page(request):
     return HttpResponse('Please log in to Portal')
 
+
+def logout_user(request):
+    return HttpResponse("Welcome to Portal")
+
+
+
