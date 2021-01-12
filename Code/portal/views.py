@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 
-from portal.models import Academic, Syllabus
+from portal.models import Academic, Syllabus, Employment
 
 
 def index(request):
@@ -29,7 +29,7 @@ def admission(request):
 
 
 def employment(request):
-    return HttpResponse("Welcome to academic section")
+    return render(request, 'portal/employee.html')
 
 
 def gallery(request):

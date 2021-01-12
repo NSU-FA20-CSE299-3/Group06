@@ -24,7 +24,7 @@ class Syllabus(models.Model):
         return self.syllabus_name
 
 
-class Employee(models.Model):
+class Employment(models.Model):
     syllabus_id = models.AutoField
     syllabus_name = models.TextField()
     desc = models.TextField()
