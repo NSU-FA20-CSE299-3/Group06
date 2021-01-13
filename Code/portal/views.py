@@ -1,9 +1,8 @@
-from django.shortcuts import render
-
 # Create your views here.
 from django.http import HttpResponse
+from django.shortcuts import render
 
-from portal.models import Academic, Syllabus, Employment
+from portal.models import class_routine, Syllabus
 
 
 def index(request):
@@ -11,10 +10,14 @@ def index(request):
 
 
 def academic(request):
-    academics = Academic.objects.all()
-    print(academics)
-    params = {'academic': academics}
-    return render(request, 'portal/academic.html', params)
+    return render(request, 'portal/home.html')
+
+
+def class_routine(request):
+    class_routines = class_routine.objects.all()
+    print(class_routines)
+    params = {'class_routine': class_routines}
+    return render(request, 'portal/class_routine.html', params)
 
 
 def syllabus(request):
