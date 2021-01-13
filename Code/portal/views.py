@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from portal.models import class_routine, Syllabus
+from portal.models import Syllabus, Class_routine
 
 
 def index(request):
@@ -14,9 +14,9 @@ def academic(request):
 
 
 def class_routine(request):
-    class_routines = class_routine.objects.all()
+    class_routines = Class_routine.objects.all()
     print(class_routines)
-    params = {'class_routine': class_routines}
+    params = {'class_routines': class_routines}
     return render(request, 'portal/class_routine.html', params)
 
 

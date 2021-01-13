@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class class_routine(models.Model):
+class Class_routine(models.Model):
     class_routine_id = models.AutoField
     class_routine_name = models.TextField()
     desc = models.TextField()
