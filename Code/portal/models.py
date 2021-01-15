@@ -35,3 +35,7 @@ class Employment(models.Model):
         return self.employment_name
 
 
+class About(models.Model):
+    about_id = models.AutoField
+    about_name = models.TextField()
+    desc = models.TextField()
