@@ -39,3 +39,6 @@ class About(models.Model):
     about_id = models.AutoField
     about_name = models.TextField()
     desc = models.TextField()
+
+    def __str__(self):
+        return self.about_name
