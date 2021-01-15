@@ -58,12 +58,12 @@
 
 
 <div class="btn-group" role="group" aria-label="">
-   <button type="button" class=" btn btn-outline-info" >হোম</button>
+   <button type="button" class=" btn btn-outline-info" data-href-template="" >হোম</button>
 <button type="button" class="btn btn-outline-info">আমাদের কথা</button>
 
   <button type="button" class="btn btn-outline-info dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> একাডেমিক
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">পাঠ্যক্রম</a>
+    <a class="dropdown-item" href="{{ syllabus }}">পাঠ্যক্রম</a>
     <a class="dropdown-item" href="#">ক্লাস রুটিন</a>
     <a class="dropdown-item" href="#">পরীক্ষার রুটিন</a>
   </div>
@@ -92,7 +92,7 @@
         </div>
 <button type="button" class="btn btn-outline-info">ক্যাম্পাস লাইফ</button>
 <button type="button" class="btn btn-outline-info">যোগাযোগ</button>
-    <button type="button" class="btn btn-outline-info"><a class="employment" href="{% url 'portal:employment' %}"> </a> >জব</button>
+    <button type="button" class="btn btn-outline-info"><a class="" href="{% url 'http://127.0.0.1:8000/portal/employment/' %}"> </a> জব</button>
 
 
   </div>
