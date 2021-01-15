@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from portal.models import Syllabus, Class_routine, Employment
+from portal.models import Syllabus, Class_routine, Employment, About
 
 
 def index(request):
@@ -43,7 +43,10 @@ def gallery(request):
 
 
 def about(request):
-    return render(request, 'portal/about.html')
+    abouts = About.objects.all()
+    print(abouts)
+    params = {'abouts': abouts}
+    return render(request, 'portal/about.html', params)
 
 
 def contact(request):
