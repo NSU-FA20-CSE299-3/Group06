@@ -1,4 +1,15 @@
 {%  extends 'portal/basic.html' %}
 {% block title %} আমাদের কথা {% endblock %}
 
-{% block body %} this is the body {% endblock %}
+{% block body %}
+{% for i in abouts %}
+<li data-target="demo" data-slide-to="{{ i }}" > </li>
+<div class="container" style="text-align: left"> {{ i.about_name }}
+
+<p>{{ i.desc|linebreaks }} </p>
+
+</div>
+
+
+
+{% endfor %} {% endblock %}
