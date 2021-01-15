@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from portal.models import Syllabus, Class_routine
+from portal.models import Syllabus, Class_routine, Employment
 
 
 def index(request):
@@ -32,7 +32,10 @@ def admission(request):
 
 
 def employment(request):
-    return render(request, 'portal/employee.html')
+    employees = Employment.objects.all()
+    print(employees)
+    params = {'employees': employees}
+    return render(request, 'portal/employee.html', params)
 
 
 def gallery(request):
