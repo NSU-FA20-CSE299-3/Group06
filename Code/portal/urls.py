@@ -13,5 +13,4 @@ urlpatterns = [
   path("about/", views.about, name="About Us"),
   path("contact/", views.contact, name="Contact"),
 
-
 ]
