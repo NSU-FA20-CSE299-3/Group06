@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 # Create your views here.
@@ -16,8 +15,12 @@ def user_profile(request):
 
 
 def logout_user(request):
-    return HttpResponse("Welcome to Portal")
+    return render(request, "Welcome to Portal")
 
 
 def pass_change(request):
-    return HttpResponse("change your password")
+    return render(request, "change your pass")
+
+
+def home(request):
+    return render(request, "portal/home.html")
