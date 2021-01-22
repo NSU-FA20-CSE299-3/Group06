@@ -48,7 +48,7 @@ This project has the following features -
    <br>
    <br>
  <p align="center">
-   <img width="700" height="420" src="Mockup/login.png"><br>
+   <img width="700" height="420" src="Mockup/signup.png"><br>
    Figure 1.0
  </p>
  <h3>2.2 Login to a specific platform :</h3>
@@ -57,7 +57,7 @@ This project has the following features -
 
 
   <p align="center">
-  <img width="700" height="400" src="Mockup/insidesite.png"><br>
+  <img width="700" height="400" src="Mockup/login.png"><br>
   Figure 2.0
 </p>
 <br>
@@ -69,7 +69,7 @@ This project has the following features -
     * Users/Teachers will also be able to see posts of the specific class routine, syllabus, exam routine.</p> <br><br><br>
 
   <p align="center">
-  <img width="700" height="420" src="images/piazzaPost.png"><br>
+  <img width="700" height="420" src="images/insidesite.png"><br>
   Figure 3.0
 </p>  
 <h3>2.3 Admin Panel:</h3>
