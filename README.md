@@ -69,31 +69,29 @@ This project has the following features -
     * Users/Teachers will also be able to see posts of the specific class routine, syllabus, exam routine.</p> <br><br><br>
 
   <p align="center">
-  <img width="700" height="420" src="Mockup/insidesite.png"><br>
+  <img width="700" height="420" src="Mockup/insidesite.png"><br> 
   Figure 3.0
 </p>  
 <h3>2.3 Admin Panel:</h3>
 There's also a Admin panel from which the admin can delete unwanted users. Assign new admins with filtered permission and monitor activities.
 <p align="center">
-<img width="700" height="420" src="Mockup/admin.png"><br>
+<img width="700" height="420" src="Mockup/admin.png"><br> <br>
 Figure 4.0
 </p>
 
  <h2 id="#technology">3. Technology</h2>
  <h3>3.1 Proposed Technology Stack: </h3>
  <p>For UI design we decided to use Bootstrap. Bootstrap is a free and open-source CSS framework directed at responsive front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap will be used over the usual HTML and CSS. <br> <br>
- And for the backend We will use Python’s web framework - Django as the website’s backend. Django hides website's source code. The framework has protection against XSS and CSRF attacks, SQL injections, clickjacking, etc. Django notifies of a number of common security mistakes better than PHP.<br> <br>
-On the other hand we will be using SQLite which is versatile and portable.</p>
+And for the backend We will use Python’s web framework - Django as the website’s backend. Django hides website's source code. The framework has protection against XSS and CSRF attacks, SQL injections, clickjacking, etc. Django notifies of a number of common security mistakes better than PHP. On the other hand we will be using SQLite which is versatile and portable.</p>
 
 <br>
 
  <h3>3.2 Implemented Technology Stack: </h3>
- <p>We used Python’s web framework - Django as the website’s backend as we mentioned eariler in our proposal, On the other hand we used HTML,CSS and Bootstrap for our frontend design. 
-<br>
-For database we used SQLite</p>
+ <p>We used Python’s web framework - Django as the website’s backend as we mentioned eariler in our proposal, On the other hand we used HTML,CSS and Bootstrap for our frontend design.</p>
+ <p>And for database we used SQLite,which is versatile and portable.</p>
 
 <h5>3.2.1 Design Pattern: </h5>
- <p>By default the Django framework follows the model-view-template pattern which a close immitation of the Model-view-controller. We decided to stay with this MVT pattern</p>
+ <p>By default the Django framework follows the model-view-template pattern which a close immitation of the Model-view-controller. We decided to stay with this MVT pattern.</p>
 
 
 
