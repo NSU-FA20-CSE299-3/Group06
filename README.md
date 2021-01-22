@@ -22,11 +22,11 @@
 <h3 id="table-of-contents">Table of contents</h3>
 
 <ol>
-  <a href="">Introduction<br></a>
-  <a href="">Software Specification<br></a>
-  <a href="">Technology<br></a>
-  <a href="">BusinessPlan/Monetization</a><br>
-  <a href="">Conclusion</a><br><hr>
+  <h3> Introduction <br></h3>
+ <h3>Software Specification<br></h3>
+ <h3>Technology<br></h3>
+  <h3>BusinessPlan/Monetization <br></h3>
+  <h3> Conclusion </h3><br><hr>
 
 </ol>
 <br>
@@ -48,7 +48,7 @@ This project has the following features -
    <br>
    <br>
  <p align="center">
-   <img width="700" height="520" src="Mockup/signup.png"><br>
+   <img width="700" height="720" src="Mockup/signup.png"><br>
    Figure 1.0
  </p>
  <h3>2.2 Login to a specific platform :</h3>
